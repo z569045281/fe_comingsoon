@@ -1,10 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
-/*
-	Eventually by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -779,10 +775,10 @@ button,
 /* Header */
 #header h1 {
   font-size: 3.25em;
-  margin: 0 0 0.55em 0; }
+  margin: 0 0 0 0; }
 
 #header p {
-  font-size: 1.35em;
+  font-size: 1.1em;
   line-height: 1.65em; }
 
 #header a {
@@ -885,3 +881,26 @@ button,
       left: auto;
       margin: 1em 0 0 0;
       position: relative; } }
+
+
+      hr {
+        width: 40vw;
+      }
+
+      #logo {
+        width: 50px; 
+        height:50px;
+      }
+
+      .container {
+        display: flex;
+        align-items:center;
+      }
+
+      .container img {
+        margin-right: 10px; /* Adjust the value to add spacing between the image and heading */
+      }
+
+      .container p {
+        margin-right: 10px; /* Adjust the value to add spacing between the image and heading */
+      }
